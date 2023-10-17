@@ -8,13 +8,13 @@ NST leverages the power of convolutional neural networks (CNNs) and their abilit
 <h3>
 NST works by defining two key images:
 </h3>
-![Image1](images/images1.png)
+![Image1](images/image1.png)
 Content Image: This is the source image whose content you want to preserve in the final output. For instance, if you use a picture of a cat as your content image, the final output will retain the structural details of the cat.
 
 Style Image: This image provides the artistic style you want to apply to the content image. For example, if you use a painting by a famous artist as your style image, the output image will inherit the brushstrokes, colors, and overall artistic style of that painting.
 
 The algorithm operates by iteratively optimizing a target image to minimize two key components of the loss function:
-![Image2](images/images2.png)
+![Image2](images/image2.png)
 1. Content Loss:
 This measures the difference between the content of the generated image and the content image. It encourages the generated image to have similar high-level features and structures as the content image.
 
